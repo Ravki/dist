@@ -1,0 +1,33 @@
+<!doctype html>
+<html ng-app="myApp">
+	<head>
+		<base href="/"></base>
+
+		<link rel="stylesheet" href="dist/css/third-party-min.css">
+
+		<link rel="stylesheet" href="dist/css/custom-min.css">
+
+		<script src="dist/js/third-party-min.js"></script>
+		
+		<script src="dist/js/custom-min.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+     			$(".carousel").carousel({
+     				interval:1500,
+     				cycle:true
+     				
+    			});
+    			function carouselStart(){
+    				$(".carousel").carousel();
+    			}
+    			setTimeout(carouselStart,2000);
+			});
+			
+		</script>
+		
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="150">
+		<div ng-view></div>
+	</body>
+</html>
