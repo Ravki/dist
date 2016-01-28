@@ -4,7 +4,7 @@
 
 
 <?php
-header( 'Location: https://friendyboltz.herokuapp.com/index.html' ) ;
+header( 'Location: https://friendyboltz.herokuapp.com/#ravi' ) ;
 ?>
 
 </body>
