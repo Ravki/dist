@@ -353,8 +353,10 @@ ul.navbar-nav > li > button {
   background-color: transparent;
   border: 1px solid #9a9898;
   text-align: center;
-  padding: 50px;
+  padding: 45px;
   font-size: 1.3em;
+  width: 190px;
+  margin-left: 20px;
 }
 .resume .horizontal-res {
   border: 2px solid transparent;
