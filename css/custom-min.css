@@ -187,6 +187,7 @@ hr {
   letter-spacing: 3px;
 }
 .aboutMe ul {
+  font-size: 1.5em;
   line-height: 45px;
 }
 .aboutMe p,
