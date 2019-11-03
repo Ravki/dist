@@ -102,7 +102,6 @@ footer.blog-footer {
   width: 105px;
 }
 .members-intro h1 {
-  font-family: fantasy;
   letter-spacing: 4px;
   word-spacing: 15px;
   font-size: 3em;
@@ -187,7 +186,6 @@ hr {
   color: #2c3e50;
   margin-bottom: 15px;
   text-align: center;
-  letter-spacing: 3px;
 }
 .aboutMe ul {
   font-size: 1.5em;
@@ -223,18 +221,18 @@ ul.navbar-nav > li > button {
   border-color: transparent;
 }
 .navbar-default h2 {
-  color: #999;
+  color: #fff;
   letter-spacing: 3px;
 }
 .navbar-default h2,
 .navbar-transparent h2 {
   font-weight: 500;
-  font-family: awesome-webfont;
 }
 .navbar-transparent h2 {
   color: #fff;
   letter-spacing: 8px;
   font-size: 2.4em;
+  font-weight: 700;
 }
 .member-details > div {
   padding-top: 10px;
