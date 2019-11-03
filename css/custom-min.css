@@ -232,7 +232,6 @@ ul.navbar-nav > li > button {
   color: #fff;
   letter-spacing: 8px;
   font-size: 2.4em;
-  font-weight: 700;
 }
 .member-details > div {
   padding-top: 10px;
@@ -336,7 +335,7 @@ ul.navbar-nav > li > button {
 .resume .right-res {
   height: 180px;
   font-weight: 500;
-  background-color: #fafafa;
+  background-color: #fff;
   padding-top: 20px;
 }
 .resume .resume-button {
