@@ -55,7 +55,7 @@ footer.blog-footer {
   height: 60px;
   font-size: 2.5em;
   font-family: sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 .members-intro {
   background-color: #fff;
@@ -111,7 +111,7 @@ footer.blog-footer {
   padding-top: 10px;
 }
 .member-row a {
-  font-weight: 700;
+  font-weight: 500;
 }
 .cover-pic {
   background: url(/images/coverPic.jpg) 0 -50px;
@@ -183,7 +183,7 @@ hr {
 .gallery h2,
 .resume h2,
 .skills h2 {
-  font-weight: bolder;
+  font-weight: 500;
   color: #2c3e50;
   margin-bottom: 15px;
   text-align: center;
@@ -211,7 +211,7 @@ ul.navbar-nav > li > button {
 }
 .navbar-default .navbar-nav > li > a {
   color: #fff;
-  font-weight: 700;
+  font-weight: 500;
 }
 .blog-header.navbar-default,
 .member-header.navbar-default {
@@ -228,7 +228,7 @@ ul.navbar-nav > li > button {
 }
 .navbar-default h2,
 .navbar-transparent h2 {
-  font-weight: 700;
+  font-weight: 500;
   font-family: awesome-webfont;
 }
 .navbar-transparent h2 {
@@ -253,7 +253,7 @@ ul.navbar-nav > li > button {
   border-radius: 0;
   border-right: 2px solid #000;
   font-size: 1.5em;
-  font-weight: 700;
+  font-weight: 500;
   color: #000;
 }
 .overlay {
@@ -337,7 +337,7 @@ ul.navbar-nav > li > button {
 .resume .left-res,
 .resume .right-res {
   height: 180px;
-  font-weight: 700;
+  font-weight: 500;
   background-color: #fafafa;
   padding-top: 20px;
 }
@@ -371,12 +371,12 @@ ul.navbar-nav > li > button {
 }
 .resume h4 {
   color: #e87e04;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 1px;
 }
 .resume h3 {
-  font-weight: 700;
-  letter-spacing: 1.5px;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 .resume p {
   font-weight: 500;
@@ -456,20 +456,17 @@ ul.navbar-nav > li > button {
   margin-top: -15px;
 }
 .detail-blog h2 {
-  font-weight: 700;
   color: #000;
   letter-spacing: 2px;
   font-size: 3em;
 }
 .detail-blog h3 {
-  font-weight: 700;
   letter-spacing: 1px;
 }
 .detail-blog p {
   font-size: 20px;
 }
 .detail-blog h1 {
-  font-weight: 700;
   font-size: 4.5em;
   text-decoration: underline;
   letter-spacing: 10px;
