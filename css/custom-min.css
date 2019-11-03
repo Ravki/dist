@@ -7,7 +7,8 @@ body {
 }
 body,
 html {
-  font-family: awesome-webfont;
+  /*font-family: awesome-webfont;*/
+  font-family: "Roboto", Helvetica, sans-serif;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
