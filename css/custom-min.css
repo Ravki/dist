@@ -151,10 +151,11 @@ footer.blog-footer {
 }
 .raviPage .member-picture {
   height: 100vh;
-  background: url(/images/ravi3.JPG);
+  background: url(/images/hero-2.png);
   background-size: cover;
-  display: table;
   padding: 0;
+  clip-path: polygon(0 0,100% 0, 100% 95%, 0 100%);
+  filter: opacity(0.85);
 }
 hr {
   height: 4px;
@@ -172,6 +173,12 @@ hr {
 }
 .member-heading .jumbotron {
   background-color: transparent;
+  text-align: center;
+  color: #fff;
+}
+.member-heading .jumbotron .btn-primary {
+    background-color: #4b668e;
+    border-color: #4b668e;
 }
 .skills .progress {
   margin-top: -5px 0 30px 0;
@@ -213,8 +220,8 @@ ul.navbar-nav > li > button {
 }
 .blog-header.navbar-default,
 .member-header.navbar-default {
-  background-color: #2c3e50;
-  border-color: #2c3e50;
+   background-color: #4b668e;
+   border-color: #4b668e;
 }
 .member-header.navbar-transparent {
   background-color: transparent;
@@ -253,11 +260,11 @@ ul.navbar-nav > li > button {
   font-weight: 500;
   color: #000;
 }
-.overlay {
+/* .overlay {
   display: table-cell;
   margin: 0 -15px;
   background-color: rgba(34, 49, 63, 0.5);
-}
+} */
 .slide1 {
   background: url(/images/coverPic3.JPG);
 }
