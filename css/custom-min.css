@@ -16,7 +16,7 @@ h2 {font-weight: 500;}
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
   color: #fff;
-  background-color: #2be2e2;
+  border-bottom: 2px solid #2be2e2;
 }
 .navbar-default .navbar-nav > .active > a:target {
   color: transparent;
@@ -156,13 +156,14 @@ footer.blog-footer {
   padding: 0;
   clip-path: polygon(0 0,100% 0, 100% 95%, 0 100%);
   filter: opacity(0.85);
+  background-attachment: fixed;
 }
 hr {
   height: 4px;
   width: 70px;
   text-align: center;
   position: relative;
-  background: #e87e04;
+  background: #4b668e;
   margin: 0 auto;
   margin-bottom: 30px;
   border: 0;
@@ -340,7 +341,7 @@ ul.navbar-nav > li > button {
 .resume .horizontal-res,
 .resume .left-res,
 .resume .right-res {
-  height: 180px;
+  height: 190px;
   font-weight: 500;
   background-color: #fff;
   padding-top: 20px;
@@ -374,7 +375,7 @@ ul.navbar-nav > li > button {
   text-align: left;
 }
 .resume h4 {
-  color: #e87e04;
+  color: #4b668e;
   font-weight: 500;
   letter-spacing: 1px;
 }
